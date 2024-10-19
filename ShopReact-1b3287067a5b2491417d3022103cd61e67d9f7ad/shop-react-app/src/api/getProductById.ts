@@ -1,0 +1,20 @@
+import { AxiosResponse } from "axios";
+import { ProductType } from "../types/Product";
+import apiClient from "./axiosConfig";
+import { productArraySchema, productsArraySchema, productSchema } from "../schemas/productSchema";
+
+export const getProductById = async (slug:string) : Promise<ProductType> => {
+    try {
+        const res : AxiosResponse<ProductType> = await apiClient.get(`/products`,{
+            params: {slug}
+        });
+        const parsed = productArraySchema.safeParse(res.data);
+        if(!parsed.success){
+            console.error(parsed.error);
+            throw new Error("Invalid data structure from API");
+        }
+        return parsed.data[0];
+    } catch (error) {
+        throw error
+    }
+}

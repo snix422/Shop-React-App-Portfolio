@@ -1,0 +1,962 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Koszulka Manchester United Home 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img01.ztat.net/article/spp-media-p1/ce981a82782d49deb59dc7c882ab1065/5d8682db6e214df08b9f99d10d5f10ae.jpg?imwidth=1800&filter=packshot",
+      "description": "Oficjalna koszulka Manchester United na sezon 2024. Klasyczny design i komfort.",
+      "relatedProducts": [
+        2,
+        3,
+        4
+      ],
+      "slug": "koszulka-manchester-united-home-2024"
+    },
+    {
+      "id": "2",
+      "name": "Koszulka Liverpool Away 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b4e36fa3-7a09-463d-ba35-0aff51968a97/LFC+M+NK+DF+JSY+SS+STAD+HM.png",
+      "description": "Koszulka wyjazdowa Liverpoolu na sezon 2024. Wysokiej jakości materiał.",
+      "relatedProducts": [
+        1,
+        3,
+        5
+      ],
+      "slug": "koszulka-liverpool-away-2024"
+    },
+    {
+      "id": "3",
+      "name": "Koszulka Chelsea Home 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img01.ztat.net/article/spp-media-p1/3dc85c26501b4304952029e6175f1592/432ebd6c66f94c1c8753c7104a73e107.jpg?imwidth=1800&filter=packshot",
+      "description": "Oficjalna koszulka Chelsea na sezon 2024. Komfortowa i stylowa.",
+      "relatedProducts": [
+        1,
+        4,
+        6
+      ],
+      "slug": "koszulka-chelsea-home-2024"
+    },
+    {
+      "id": "4",
+      "name": "Koszulka Manchester City Away 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 84.99
+        },
+        {
+          "size": "M",
+          "price": 89.99
+        },
+        {
+          "size": "L",
+          "price": 94.99
+        },
+        {
+          "size": "XL",
+          "price": 99.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://sklepmartes.pl/media/catalog/product/cache/f8b802334443573a9a13c3cea281a3aa/_/4/_4067981377428_I_001-77507501-MCFC-HOME-JERSEY-REPLICA-light_blue.webp",
+      "description": "Koszulka wyjazdowa Manchester City na sezon 2024. Elegancka i funkcjonalna.",
+      "relatedProducts": [
+        3,
+        5,
+        7
+      ],
+      "slug": "koszulka-manchester-city-away-2024"
+    },
+    {
+      "id": "5",
+      "name": "Koszulka Tottenham Hotspur Home 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://img01.ztat.net/article/spp-media-p1/ea29e3e2ede14d2ca427ec01bc12f22c/cdd2dc06d68642dcb72422cfcdc89e20.jpg?imwidth=1800&filter=packshot",
+      "description": "Oficjalna koszulka Tottenham Hotspur na sezon 2024. Wysokiej jakości materiał.",
+      "relatedProducts": [
+        2,
+        4,
+        6
+      ],
+      "slug": "koszulka-tottenham-hotspur-home-2024"
+    },
+    {
+      "id": "6",
+      "name": "Koszulka FC Barcelona Home 2024",
+      "league": "La Liga",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEQwDGe9mNzfNVUxVNQEbnCZ8d9ntkIp2aMA&s",
+      "description": "Oficjalna koszulka FC Barcelona na sezon 2024. Wysokiej jakości materiały i nowoczesny design.",
+      "relatedProducts": [
+        7,
+        8,
+        9
+      ],
+      "slug": "koszulka-fc-barcelona-home-2024"
+    },
+    {
+      "id": "7",
+      "name": "Koszulka Real Madrid Away 2024",
+      "league": "La Liga",
+      "size": [
+        {
+          "size": "S",
+          "price": 94.99
+        },
+        {
+          "size": "M",
+          "price": 99.99
+        },
+        {
+          "size": "L",
+          "price": 104.99
+        },
+        {
+          "size": "XL",
+          "price": 109.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://m.media-amazon.com/images/I/518fANEJ-6L._AC_SX679_.jpg",
+      "description": "Koszulka wyjazdowa Real Madrid na sezon 2024. Elegancka i wyjątkowa.",
+      "relatedProducts": [
+        6,
+        8,
+        10
+      ],
+      "slug": "koszulka-real-madrid-away-2024"
+    },
+    {
+      "id": "8",
+      "name": "Koszulka Atletico Madrid Home 2024",
+      "league": "La Liga",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://gfx.r-gol.com/media/res/products/557/194557/465x605/fn9146-406_1.webp",
+      "description": "Koszulka Atletico Madrid na sezon 2024. Komfortowa i nowoczesna.",
+      "relatedProducts": [
+        6,
+        7,
+        9
+      ],
+      "slug": "koszulka-atletico-madrid-home-2024"
+    },
+    {
+      "id": "9",
+      "name": "Koszulka Sevilla FC Away 2024",
+      "league": "La Liga",
+      "size": [
+        {
+          "size": "S",
+          "price": 84.99
+        },
+        {
+          "size": "M",
+          "price": 89.99
+        },
+        {
+          "size": "L",
+          "price": 94.99
+        },
+        {
+          "size": "XL",
+          "price": 99.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyrKXtYzz4aRyXGnZFxsAJvOdLNP1lElnR7A&s",
+      "description": "Koszulka wyjazdowa Sevilla FC na sezon 2024. Stylowa i wygodna.",
+      "relatedProducts": [
+        8,
+        10,
+        11
+      ],
+      "slug": "koszulka-sevilla-fc-away-2024"
+    },
+    {
+      "id": "10",
+      "name": "Koszulka Real Betis Home 2024",
+      "league": "La Liga",
+      "size": [
+        {
+          "size": "M",
+          "price": 79.99
+        },
+        {
+          "size": "L",
+          "price": 84.99
+        },
+        {
+          "size": "XL",
+          "price": 89.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://thumblr.uniid.it/product/260274/6a69a1f65f66.jpg",
+      "description": "Oficjalna koszulka Real Betis na sezon 2024. Doskonała jakość i komfort.",
+      "relatedProducts": [
+        9,
+        11,
+        12
+      ],
+      "slug": "koszulka-real-betis-home-2024"
+    },
+    {
+      "id": "11",
+      "name": "Koszulka Juventus Home 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b38cbf7df9c04f92bb509a7357898535_9366/Koszulka_Juventus_24-25_Home_Bialy_IS8002_HM30.jpg",
+      "description": "Oficjalna koszulka Juventus na sezon 2024. Klasyczny wygląd i wysoka jakość.",
+      "relatedProducts": [
+        10,
+        12,
+        13
+      ],
+      "slug": "koszulka-juventus-home-2024"
+    },
+    {
+      "id": "12",
+      "name": "Koszulka Inter Milan Away 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 84.99
+        },
+        {
+          "size": "M",
+          "price": 89.99
+        },
+        {
+          "size": "L",
+          "price": 94.99
+        },
+        {
+          "size": "XL",
+          "price": 99.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://images2-gazzanet.gazzettaobjects.it/OrAS_Sy_WxDoDHTorfx5LFVaXjA=/712x402/smart/filters:format(webp)/www.fcinter1908.it/assets/uploads/202404/547933e4eb4fee0d56cca039b11018f8.jpeg",
+      "description": "Koszulka wyjazdowa Inter Milan na sezon 2024. Elegancki i nowoczesny wygląd.",
+      "relatedProducts": [
+        11,
+        13,
+        14
+      ],
+      "slug": "koszulka-inter-milan-away-2024"
+    },
+    {
+      "id": "13",
+      "name": "Koszulka AC Milan Home 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://contents.mediadecathlon.com/p2723186/k$d0e97a619e1488f6838765801149b9f1/sq/koszulka-pilkarska-puma-ac-milan-domowa-sezon-2425.jpg?format=auto&f=800x0",
+      "description": "Oficjalna koszulka AC Milan na sezon 2024. Tradycyjny design i doskonały komfort.",
+      "relatedProducts": [
+        12,
+        14,
+        15
+      ],
+      "slug": "koszulka-ac-milan-home-2024"
+    },
+    {
+      "id": "14",
+      "name": "Koszulka AS Roma Away 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 84.99
+        },
+        {
+          "size": "M",
+          "price": 89.99
+        },
+        {
+          "size": "L",
+          "price": 94.99
+        },
+        {
+          "size": "XL",
+          "price": 99.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/52e57b8e8be7410fb9d6b72937d16903_9366/Koszulka_AS_Roma_24-25_Home_Kids_Czerwony_IS5846_01_laydown.jpg",
+      "description": "Koszulka wyjazdowa AS Roma na sezon 2024. Wygodna i stylowa.",
+      "relatedProducts": [
+        13,
+        15,
+        16
+      ],
+      "slug": "koszulka-as-roma-away-2024"
+    },
+    {
+      "id": "15",
+      "name": "Koszulka Napoli Home 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/o/06/cdf03d1d-0266-4817-bd09-d5e6532d1ab5.jpg",
+      "description": "Oficjalna koszulka Napoli na sezon 2024. Świetna jakość i komfort.",
+      "relatedProducts": [
+        14,
+        16,
+        17
+      ],
+      "slug": "koszulka-napoli-home-2024"
+    },
+    {
+      "id": "16",
+      "name": "Koszulka Bayern Munich Home 2024",
+      "league": "Bundesliga",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d80ce170b8ca4456a62bbc45f56eae09_9366/Koszulka_FC_Bayern_24-25_Home_Czerwony_IT8511_HM30.jpg",
+      "description": "Oficjalna koszulka Bayern Munich na sezon 2024. Wygodna i stylowa.",
+      "relatedProducts": [
+        15,
+        17,
+        18
+      ],
+      "slug": "koszulka-bayern-munich-home-2024"
+    },
+    {
+      "id": "17",
+      "name": "Koszulka Borussia Dortmund Away 2024",
+      "league": "Bundesliga",
+      "size": [
+        {
+          "size": "S",
+          "price": 84.99
+        },
+        {
+          "size": "M",
+          "price": 89.99
+        },
+        {
+          "size": "L",
+          "price": 94.99
+        },
+        {
+          "size": "XL",
+          "price": 99.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://contents.mediadecathlon.com/p2719186/k$88e3dafed967d2521ffa336d0aea4187/sq/koszulka-pilkarska-borussia-dortmund-domowa-sezon-2425.jpg?format=auto&f=800x0",
+      "description": "Koszulka wyjazdowa Borussia Dortmund na sezon 2024. Komfortowa i funkcjonalna.",
+      "relatedProducts": [
+        16,
+        18,
+        19
+      ],
+      "slug": "koszulka-borussia-dortmund-away-2024"
+    },
+    {
+      "id": "18",
+      "name": "Koszulka RB Leipzig Home 2024",
+      "league": "Bundesliga",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://contents.mediadecathlon.com/p2744615/k$d31f0c0401622b97373ef63060e6f640/sq/8895939.jpg?format=auto&f=800x0",
+      "description": "Oficjalna koszulka RB Leipzig na sezon 2024. Lekka i nowoczesna.",
+      "relatedProducts": [
+        17,
+        19,
+        20
+      ],
+      "slug": "koszulka-rb-leipzig-home-2024"
+    },
+    {
+      "id": "19",
+      "name": "Koszulka Borussia Mönchengladbach Away 2024",
+      "league": "Bundesliga",
+      "size": [
+        {
+          "size": "S",
+          "price": 84.99
+        },
+        {
+          "size": "M",
+          "price": 89.99
+        },
+        {
+          "size": "L",
+          "price": 94.99
+        },
+        {
+          "size": "XL",
+          "price": 99.99
+        }
+      ],
+      "isRecommended": false,
+      "image": "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/y/24/92f7670f-5af0-4280-9c78-4775d55587e5.jpg",
+      "description": "Koszulka wyjazdowa Borussia Mönchengladbach na sezon 2024. Wysoka jakość i wygoda.",
+      "relatedProducts": [
+        18,
+        20,
+        1
+      ],
+      "slug": "koszulka-borussia-monchengladbach-away-2024"
+    },
+    {
+      "id": "20",
+      "name": "Koszulka Eintracht Frankfurt Home 2024",
+      "league": "Bundesliga",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://www.futbolemotion.com/imagesarticulos/189679/750/camiseta-nike-eintracht-frankfurt-primera-equipacion-stadium-2023-2024-black-0.jpg",
+      "description": "Oficjalna koszulka Eintracht Frankfurt na sezon 2024. Komfortowa i stylowa.",
+      "relatedProducts": [
+        19,
+        1,
+        2
+      ],
+      "slug": "koszulka-eintracht-frankfurt-home-2024"
+    }
+  ],
+  "wishList": [
+    {
+      "id": "15",
+      "name": "Koszulka Napoli Home 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/o/06/cdf03d1d-0266-4817-bd09-d5e6532d1ab5.jpg",
+      "description": "Oficjalna koszulka Napoli na sezon 2024. Świetna jakość i komfort.",
+      "relatedProducts": [
+        14,
+        16,
+        17
+      ],
+      "slug": "koszulka-napoli-home-2024",
+      "userId": "4YmcS0gPXAUBd3NecW4LXsdGvB12"
+    },
+    {
+      "id": "18",
+      "name": "Koszulka RB Leipzig Home 2024",
+      "league": "Bundesliga",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://contents.mediadecathlon.com/p2744615/k$d31f0c0401622b97373ef63060e6f640/sq/8895939.jpg?format=auto&f=800x0",
+      "description": "Oficjalna koszulka RB Leipzig na sezon 2024. Lekka i nowoczesna.",
+      "relatedProducts": [
+        17,
+        19,
+        20
+      ],
+      "slug": "koszulka-rb-leipzig-home-2024",
+      "userId": "4YmcS0gPXAUBd3NecW4LXsdGvB12"
+    },
+    {
+      "id": "11",
+      "name": "Koszulka Juventus Home 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b38cbf7df9c04f92bb509a7357898535_9366/Koszulka_Juventus_24-25_Home_Bialy_IS8002_HM30.jpg",
+      "description": "Oficjalna koszulka Juventus na sezon 2024. Klasyczny wygląd i wysoka jakość.",
+      "relatedProducts": [
+        10,
+        12,
+        13
+      ],
+      "slug": "koszulka-juventus-home-2024",
+      "userId": "ajlMhLgSVIZEEccWpBlRDHyAOx32"
+    },
+    {
+      "id": "13",
+      "name": "Koszulka AC Milan Home 2024",
+      "league": "Serie A",
+      "size": [
+        {
+          "size": "S",
+          "price": 79.99
+        },
+        {
+          "size": "M",
+          "price": 84.99
+        },
+        {
+          "size": "L",
+          "price": 89.99
+        },
+        {
+          "size": "XL",
+          "price": 94.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://contents.mediadecathlon.com/p2723186/k$d0e97a619e1488f6838765801149b9f1/sq/koszulka-pilkarska-puma-ac-milan-domowa-sezon-2425.jpg?format=auto&f=800x0",
+      "description": "Oficjalna koszulka AC Milan na sezon 2024. Tradycyjny design i doskonały komfort.",
+      "relatedProducts": [
+        12,
+        14,
+        15
+      ],
+      "slug": "koszulka-ac-milan-home-2024",
+      "userId": "ajlMhLgSVIZEEccWpBlRDHyAOx32"
+    },
+    {
+      "id": "1",
+      "name": "Koszulka Manchester United Home 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img01.ztat.net/article/spp-media-p1/ce981a82782d49deb59dc7c882ab1065/5d8682db6e214df08b9f99d10d5f10ae.jpg?imwidth=1800&filter=packshot",
+      "description": "Oficjalna koszulka Manchester United na sezon 2024. Klasyczny design i komfort.",
+      "relatedProducts": [
+        2,
+        3,
+        4
+      ],
+      "slug": "koszulka-manchester-united-home-2024",
+      "userId": "4YmcS0gPXAUBd3NecW4LXsdGvB12"
+    },
+    {
+      "id": "3",
+      "name": "Koszulka Chelsea Home 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img01.ztat.net/article/spp-media-p1/3dc85c26501b4304952029e6175f1592/432ebd6c66f94c1c8753c7104a73e107.jpg?imwidth=1800&filter=packshot",
+      "description": "Oficjalna koszulka Chelsea na sezon 2024. Komfortowa i stylowa.",
+      "relatedProducts": [
+        1,
+        4,
+        6
+      ],
+      "slug": "koszulka-chelsea-home-2024",
+      "userId": "4YmcS0gPXAUBd3NecW4LXsdGvB12"
+    },
+    {
+      "id": "3",
+      "name": "Koszulka Chelsea Home 2024",
+      "league": "Premier League",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://img01.ztat.net/article/spp-media-p1/3dc85c26501b4304952029e6175f1592/432ebd6c66f94c1c8753c7104a73e107.jpg?imwidth=1800&filter=packshot",
+      "description": "Oficjalna koszulka Chelsea na sezon 2024. Komfortowa i stylowa.",
+      "relatedProducts": [
+        1,
+        4,
+        6
+      ],
+      "slug": "koszulka-chelsea-home-2024",
+      "userId": "4YmcS0gPXAUBd3NecW4LXsdGvB12"
+    },
+    {
+      "id": "6",
+      "name": "Koszulka FC Barcelona Home 2024",
+      "league": "La Liga",
+      "size": [
+        {
+          "size": "S",
+          "price": 89.99
+        },
+        {
+          "size": "M",
+          "price": 94.99
+        },
+        {
+          "size": "L",
+          "price": 99.99
+        },
+        {
+          "size": "XL",
+          "price": 104.99
+        }
+      ],
+      "isRecommended": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEQwDGe9mNzfNVUxVNQEbnCZ8d9ntkIp2aMA&s",
+      "description": "Oficjalna koszulka FC Barcelona na sezon 2024. Wysokiej jakości materiały i nowoczesny design.",
+      "relatedProducts": [
+        7,
+        8,
+        9
+      ],
+      "slug": "koszulka-fc-barcelona-home-2024",
+      "userId": "4YmcS0gPXAUBd3NecW4LXsdGvB12"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "7423",
+      "author": "Mariusz",
+      "review": "Fajna , super polecam:)",
+      "productId": 3
+    },
+    {
+      "id": "b612",
+      "author": "Mariusz",
+      "review": "Fajna , super polecam:)",
+      "productId": 3
+    },
+    {
+      "id": "b070",
+      "author": "Mariusz",
+      "review": "Super klub , super koszulka",
+      "productId": 4
+    },
+    {
+      "id": "85b0",
+      "author": "Mariusz",
+      "review": "Gorsza strona madrytu ",
+      "productId": 8
+    },
+    {
+      "id": "c8ba",
+      "author": "Mariusz",
+      "review": "Super koszulka",
+      "productId": 13
+    },
+    {
+      "id": "78cf",
+      "author": "Mariusz",
+      "review": "Fajna , super polecam:)",
+      "productId": 1
+    },
+    {
+      "id": "0d3a",
+      "author": "Mariusz",
+      "review": "",
+      "productId": 1
+    },
+    {
+      "id": "2f65",
+      "author": "mariusz.wojcik32@onet.pl",
+      "review": "Super klub",
+      "productId": 3
+    },
+    {
+      "id": "ac75",
+      "author": "mariusz.wojcik32@onet.pl",
+      "review": "Atleti Club",
+      "productId": 8
+    }
+  ]
+}

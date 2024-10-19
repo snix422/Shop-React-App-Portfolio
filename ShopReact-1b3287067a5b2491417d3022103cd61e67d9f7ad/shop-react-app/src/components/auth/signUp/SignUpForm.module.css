@@ -1,0 +1,45 @@
+.input {
+    background-color: #1e1e1e;
+    /* Ciemne tło inputa */
+    color: #ffffff;
+    /* Biały tekst */
+    border: 1px solid #4a4a4a;
+    /* Szare obramowanie */
+    padding: 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #0084ff;
+    /* Niebieski kolor obramowania na focus */
+    box-shadow: 0 0 5px rgba(0, 132, 255, 0.5);
+    /* Subtelny niebieski cień */
+}
+
+.button {
+    background-color: #0084ff;
+    /* Niebieski kolor przycisku */
+    color: #ffffff;
+    /* Biały tekst */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #006bb3;
+    /* Ciemniejszy niebieski na hover */
+}
+
+.container {
+    background-color: #121212;
+    /* Ciemne tło dla całego widoku */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* Cień */
+}
