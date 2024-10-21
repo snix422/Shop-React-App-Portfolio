@@ -1,10 +1,9 @@
-import { useCallback, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import useSearchProduct from './useSearchProduct';
 
 export const useHandleSearchChange = () => {
   const [query, setQuery] = useState("");
   const { searchProduct,searchProductNull } = useSearchProduct();
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const controllerRef = useRef<AbortController>();
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -22,7 +21,6 @@ export const useHandleSearchChange = () => {
           }
           console.log("test abort")
           controllerRef.current = new AbortController();
-          const signal = controllerRef.current.signal;
           searchProduct(newQuery);
         }
      

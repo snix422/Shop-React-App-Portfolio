@@ -10,10 +10,10 @@ const useProductsByQuery = (query:string) => {
         queryFn: () => {
             if (controllerRef.current) {
                 console.log("abort")
-                controllerRef.current.abort(); // Anuluj poprzednie zapytanie
+                controllerRef.current.abort();
             }
-            controllerRef.current = new AbortController(); // Tworzymy nowy AbortController
-            return getProductsByQuery(query, controllerRef.current.signal); // Przekazujemy sygnał do fetchowania
+            controllerRef.current = new AbortController();
+            return getProductsByQuery(query, controllerRef.current.signal);
         },
         enabled: shouldFetch
     })

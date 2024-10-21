@@ -17,7 +17,6 @@ export const getBestsellers = async () :Promise<ProductType[]> => {
         }
         return res.data;
     } catch (error) {
-        console.log(`Problem z pobieraniem danych, ${error}`);
         throw error;
     }
 }

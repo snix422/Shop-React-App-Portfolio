@@ -23,11 +23,7 @@ const CommentSection : React.FC<CommentSectionProps> = ({productId}) => {
     const {isLoading,error,reviews,addReview,addReviewLoading,addReviewError} = useReviews(productId);
     const {users} = useFetchUsers();
     const {user} = useAuth();
-    const currentUser = users.find((u)=> u.id == user?.uid);
     const [optimisticReviews,setOptimisticReviews] = useState<any[]>(reviews)
-  console.log(reviews);
-  console.log(user?.email,'user');
-  console.log(users,'users');
 
     const formValidation = {
         review:{
@@ -56,7 +52,6 @@ const CommentSection : React.FC<CommentSectionProps> = ({productId}) => {
     }
 
     const onSubmit :SubmitHandler<ReviewFormType> = (formData:ReviewFormType) => {
-        console.log(currentUser);
         if(!user){
             toast.error("Nie można dodać komentarza, nie znamy autora");
             return;
@@ -70,24 +65,15 @@ const CommentSection : React.FC<CommentSectionProps> = ({productId}) => {
         setOptimisticReviews((prev:ReviewProduct[]) => [...prev,newReview])
         addReview(newReview, {
             onSuccess: () => {
-                reset(); // Resetowanie formularza po sukcesie
+                reset(); 
             },
             onError: () => {
-                // Cofnięcie optymistycznej zmiany w przypadku błędu
                 setOptimisticReviews((prev: ReviewProduct[]) => prev.filter(p => p !== newReview));
             }
         });
       
     }
     
-    const exampleReviews = [{
-        author:"Mariusz",
-        review:"Review 1"
-    },{
-        author:"Janek",
-        review:"Review 2"
-    }]
-
     return(
         <div className="flex flex-col items-center w-[100%] gap-4">
             <Heading level={1} className="text-2xl">Opinie</Heading>

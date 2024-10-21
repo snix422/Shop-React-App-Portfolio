@@ -12,7 +12,6 @@ export const getAllProducts = async () : Promise<ProductType[]> => {
             console.error(parsed.error);
             throw new Error("Invalid data structure from API");
         }
-        console.log(parsed.data,'zod')
         return parsed.data;
     } catch (error) {
         throw error

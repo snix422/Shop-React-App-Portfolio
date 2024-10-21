@@ -1,7 +1,5 @@
 import apiClient from "./axiosConfig"
-import { ProductType } from "../types/Product"
 import {toast} from 'react-hot-toast'
-import { ReviewProduct } from "../types/ReviewProduct";
 import { wishListSchema } from "../schemas/wishListSchema";
 
 export const sendProductToFavorite = async (product: any) : Promise<void> => {

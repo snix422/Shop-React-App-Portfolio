@@ -3,6 +3,7 @@ import { getWishList } from "../api/getWishList";
 import { sendProductToFavorite } from "../api/SendProductToFavorite";
 import { removeProductFromFavorite } from "../api/RemoveProductFromFavorite";
 import { useEffect } from "react";
+import toast from "react-hot-toast";
 
 const useWishList = (userId?:any) => {
 
@@ -20,7 +21,7 @@ const useWishList = (userId?:any) => {
             queryClient.invalidateQueries({queryKey:["wishlist-query-key",userId]});
         },
         onError: (error) => {
-            console.error("Błąd podczas dodawania produktu do ulubionych:", error);
+            toast.error("Błąd podczas dodawaniu produktu do ulubionych:")
         }
     });
 
@@ -30,7 +31,7 @@ const useWishList = (userId?:any) => {
             queryClient.invalidateQueries({queryKey:["wishlist-query-key",userId]});
         },
         onError: (error) => {
-            console.error("Błąd podczas usuwania produktu z ulubionych:", error);
+            toast.error("Błąd podczas usuwania produktu z ulubionych:")
         }
     });
 

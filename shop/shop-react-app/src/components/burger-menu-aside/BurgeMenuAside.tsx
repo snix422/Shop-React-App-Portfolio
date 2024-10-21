@@ -1,8 +1,5 @@
 import { Drawer } from "@mui/material"
 import Heading from "../Headings/Heading"
-import { Link } from "react-router-dom"
-import { logout } from "../../libs/LogOut"
-import useAuth from "../../hooks/useAuth"
 import BurgerMenu from "./BurgerMenu"
 import { SetStateAction } from "react"
 import { User } from "@firebase/auth"

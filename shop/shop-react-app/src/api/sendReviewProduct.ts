@@ -6,7 +6,6 @@ import { reviewSchema } from "../schemas/reviewSchema";
 export const sendReviewProduct = async (review:ReviewProduct):Promise<void> => {
     const parsed = reviewSchema.safeParse(review);
     if(!parsed.success){
-        console.log(parsed.error);
         toast.error("Nieprawidłowy dane opinii");
         throw new Error("Nieprawidłowy dane opinii");
     }

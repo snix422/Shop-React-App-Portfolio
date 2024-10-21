@@ -33,24 +33,24 @@ const DrawerSearch : React.FC<DrawerSearchProps> = ({isOpen,onClose}) => {
                 width: 400,
                 height: 80,
                 margin: 'auto',
-                backgroundColor: '#ffffff', // White background
-                boxShadow: '0px 4px 10px rgba(0,0,0,0.15)', // Slightly darker shadow
-                borderRadius: '8px', // Rounded corners
-                border: '1px solid #ddd', // Light gray border for better separation
+                backgroundColor: '#ffffff',
+                boxShadow: '0px 4px 10px rgba(0,0,0,0.15)', 
+                borderRadius: '8px',
+                border: '1px solid #ddd',
               }}
           >
             <InputBase
               sx={{
                 ml: 1,
                 flex: 1,
-                backgroundColor: '#f0f0f0', // Light gray background
-                borderRadius: '4px', // Rounded corners
-                padding: '4px 8px', // Padding inside the input
-                border: '1px solid #ccc', // Light gray border
-                boxShadow: 'inset 0px 1px 3px rgba(0,0,0,0.1)', // Inner shadow for input
+                backgroundColor: '#f0f0f0',
+                borderRadius: '4px', 
+                padding: '4px 8px',
+                border: '1px solid #ccc',
+                boxShadow: 'inset 0px 1px 3px rgba(0,0,0,0.1)',
                 '&:focus': {
-                  borderColor: '#007bff', // Change border color on focus
-                  outline: 'none', // Remove default outline
+                  borderColor: '#007bff',
+                  outline: 'none',
                 },
               }}
               placeholder="Wyszukaj produkt"

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { SignInFormType } from "../../../types/SignInFormType";
 import { auth } from "../../../firebase/firebase";
-import { signInWithCredential, signInWithEmailAndPassword } from "@firebase/auth";
+import { signInWithEmailAndPassword } from "@firebase/auth";
 import SignInForm from "./SignInForm";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";

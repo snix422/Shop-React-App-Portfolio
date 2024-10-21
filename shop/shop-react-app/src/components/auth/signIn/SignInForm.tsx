@@ -6,7 +6,6 @@ import { FieldErrors, UseFormRegister } from "react-hook-form"
 import { SignInFormType } from "../../../types/SignInFormType"
 import React from "react"
 
-
 type SignInProps = {
     onSubmit: (e?:React.BaseSyntheticEvent) => void,
     register: UseFormRegister<SignInFormType>,

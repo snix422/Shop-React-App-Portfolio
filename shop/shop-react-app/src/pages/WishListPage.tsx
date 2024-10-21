@@ -1,19 +1,14 @@
-import { useSelector } from "react-redux"
-import { RootState } from "../redux/store"
-import { ProductType } from "../types/Product";
-import ProductsList from "../components/products/ProductsList";
-import ProductCard from "../components/products/ProductCard";
 import Heading from "../components/Headings/Heading";
 import useWishList from "../hooks/useWishList";
 import useAuth from "../hooks/useAuth";
 import WishList from "../components/wishlist/WishList";
 import WishListItem from "../components/wishlist/WishListItem";
-import ProductCardPlaceholder from "../components/placeholders/ProductCardPlaceholder";
 import WishListItemPlaceholder from "../components/placeholders/WishListItemPlaceholder";
 import { Link } from "react-router-dom";
 
 
 const WishListPage = () => {
+    
     const {user} = useAuth();
     const {isLoading,wishList,removeFromWishList} = useWishList(user?.uid);
     if(isLoading){

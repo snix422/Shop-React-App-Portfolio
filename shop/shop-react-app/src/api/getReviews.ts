@@ -10,7 +10,6 @@ export const getReviewsByProduct = async (idProduct:number):Promise<any> =>  {
         })
         const parsed = reviewSchemaArray.safeParse(res.data);
         if(!parsed.success){
-            console.error(parsed.error);
             throw new Error("Invalid data structure from API");
         }
         return res.data;

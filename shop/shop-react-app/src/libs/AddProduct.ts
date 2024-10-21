@@ -2,8 +2,6 @@ import { Dispatch } from "@reduxjs/toolkit";
 import { addToCart } from "../redux/slices/CartSlice";
 import { SizeArrayType } from "../types/Product"
 
-
-
 export const addProductToCart = (product:any,selectedSize: SizeArrayType, dispatch:Dispatch ) => {
     const newItemCart = {
         id:product.id,

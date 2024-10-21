@@ -1,18 +1,11 @@
-import BurgerMenuAside from "../burger-menu-aside/BurgeMenuAside";
 import BurgerIcon from "../burger-menu-aside/BurgerIcon";
 import ShoppingCartBadge from "./ShoppingCartBadge"
 import WishListIcon from "./WishListIcon"
-import MenuIcon from '@mui/icons-material/Menu';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AccountOptions from "./AccountOptions";
 import SearchBox from "./SearchIcon";
 import { SetStateAction, useState } from "react";
-import { logout } from "../../libs/LogOut";
 import { useNavigate } from "react-router-dom";
 import { User } from "@firebase/auth";
-import useFetchUsers from "../../hooks/useFetchUsers";
-import useAuth from "../../hooks/useAuth";
-import Heading from "../Headings/Heading";
 import React from "react";
 
 type HeaderActionsProps = {

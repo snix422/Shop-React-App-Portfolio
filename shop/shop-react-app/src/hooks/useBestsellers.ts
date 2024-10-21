@@ -1,5 +1,4 @@
 import { useQuery, UseQueryResult } from '@tanstack/react-query';
-
 import { ProductType } from "../types/Product"
 import { getBestsellers } from '../api/getBestsellers';
 

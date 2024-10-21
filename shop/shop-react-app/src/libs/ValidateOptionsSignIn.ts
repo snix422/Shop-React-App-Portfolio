@@ -2,7 +2,7 @@ export const ValidateOptionsSignIn = {
     email:{
         required: "E-mail jest wymagany",
         pattern: {
-            value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i, // simple email regex
+            value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i,
             message: 'Zły format e-maila',
           },
     },

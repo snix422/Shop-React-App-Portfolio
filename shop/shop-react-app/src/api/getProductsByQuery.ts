@@ -9,13 +9,11 @@ export const getProductsByQuery = async (query: string, signal:AbortSignal): Pro
       const res : AxiosResponse<ProductType[]> = await apiClient.get("/products", {signal});
       const parsed = productsArraySchema.safeParse(res.data);
       if(!parsed.success){
-        console.error(parsed.error);
         throw new Error("Invalid data structure from API");
       }
       const filteredResults = res.data.filter((r:ProductType)=>r.name.toLowerCase().includes(query.toLowerCase()));
       return filteredResults
     } catch (error) {
-      console.error('Błąd pobierania danych:', error);
       throw error;
     }
   };

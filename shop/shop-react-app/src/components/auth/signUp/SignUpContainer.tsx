@@ -1,10 +1,9 @@
-import {useForm, SubmitHandler, RegisterOptions} from 'react-hook-form'
+import {useForm, SubmitHandler} from 'react-hook-form'
 import { SignUpType } from '../../../types/SignUpFormType';
 import { useState } from 'react';
-import { auth, db } from '../../../firebase/firebase';
+import { auth} from '../../../firebase/firebase';
 import { createUserWithEmailAndPassword, getIdToken } from '@firebase/auth';
 import SignUpForm from './SignUpForm';
-import { doc, setDoc } from '@firebase/firestore';
 import React from 'react';
 
 const SignUpContainer = () => {
@@ -16,21 +15,7 @@ const SignUpContainer = () => {
             console.log("test rejestracja")
             const userCredential = await createUserWithEmailAndPassword(auth, formData.email, formData.password);
             const token = await getIdToken(userCredential.user);
-
-            /*
-
-      // Zapis danych użytkownika w Firestore
-        await setDoc(doc(db, "users", userCredential.user.uid), {
-        email: formData.email,
-        name: formData.name,
-        surname: formData.surname,
-        phone: formData.phone,
-        token: token,
-      });*/
-
-      // Resetowanie formularza po pomyślnej rejestracji
-      reset();
-
+            reset();
           } catch (error) {
             if(error instanceof Error){
                 setRegistrationError(error.message);

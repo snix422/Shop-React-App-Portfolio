@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import { logout } from "../../libs/LogOut"
 import { User } from "@firebase/auth"
 import React from "react"
 

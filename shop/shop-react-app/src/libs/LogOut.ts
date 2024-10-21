@@ -9,6 +9,5 @@ export const logout = async () => {
         toast.success('Pomyślnie wylogowano', { id: toastId });
     } catch (error) {
         toast.error('Wystąpił problem podczas wylogowywania', { id: toastId });
-        console.error('Error signing out: ', error);
     }
 };

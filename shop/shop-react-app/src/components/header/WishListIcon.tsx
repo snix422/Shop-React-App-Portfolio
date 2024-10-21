@@ -1,7 +1,5 @@
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Badge from '@mui/material/Badge';
-import { useSelector } from 'react-redux';
-import { RootState } from '../../redux/store';
 import { Link } from 'react-router-dom';
 import useWishList from '../../hooks/useWishList';
 import React from 'react';

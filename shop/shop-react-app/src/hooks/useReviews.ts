@@ -14,7 +14,7 @@ export const useReviews = (productId: number) => {
     });
 
     const addMutation = useMutation({
-        mutationFn: sendReviewProduct, // Prawidłowa funkcja mutacji
+        mutationFn: sendReviewProduct, 
         onMutate: async (newReview: ReviewProduct) => {
             const toastId = toast.loading("Dodawanie opinii...");
             await queryClient.cancelQueries({ queryKey: ["reviews-query-key", productId] });

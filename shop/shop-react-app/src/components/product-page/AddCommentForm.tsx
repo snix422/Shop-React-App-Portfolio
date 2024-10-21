@@ -1,5 +1,4 @@
-import { FieldError, FieldErrors, UseFormRegister } from "react-hook-form"
-import Heading from "../Headings/Heading"
+import { FieldErrors, UseFormRegister } from "react-hook-form"
 import { ReviewFormType } from "./CommentSection"
 import { Alert } from "@mui/material"
 import React from "react"

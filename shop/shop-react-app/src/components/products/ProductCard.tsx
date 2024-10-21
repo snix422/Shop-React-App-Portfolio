@@ -1,12 +1,7 @@
-import { Button } from "@mui/material"
 import Heading from "../Headings/Heading"
 import { Link } from "react-router-dom"
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import { useDispatch, useSelector } from "react-redux";
-import { addFavoriteProduct } from "../../redux/slices/FavoritesListSlice";
-import { RootState } from "../../redux/store";
 import useWishList from "../../hooks/useWishList";
-import { sendProductToFavorite } from "../../api/SendProductToFavorite";
 import { ProductType } from "../../types/Product";
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import useAuth from "../../hooks/useAuth";
@@ -40,7 +35,7 @@ const ProductCard : React.FC<ProductCardProps> = ({data}) => {
         <FavoriteIcon
           onClick={() => removeFromWishList(data.id)}
           fontSize="large"
-          className="absolute top-2 right-2 transition-all duration-300 ease-in-out hover:cursor-pointer text-red-500" // Dodaj klasę `text-red-500` lub podobną dla koloru
+          className="absolute top-2 right-2 transition-all duration-300 ease-in-out hover:cursor-pointer text-red-500" 
         />
       ) : (
         <FavoriteBorderIcon

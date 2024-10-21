@@ -48,7 +48,8 @@ const SignUpForm : React.FC<SignUpProps> = ({onSubmit,register,errors,registrati
             {errors?.phone?.message ? <Alert severity="error">{errors.phone.message}</Alert> : null}
             </div>
             <button type="submit" className={`${styles.button}`}>Zarejestruj się</button>
-            {registrationError ? <Alert severity="error">{registrationError}</Alert> : null}
+            {registrationError && registrationError.includes("auth/email-already-in-use") ? <Alert severity="error">E-mail jest już zajęty</Alert> : null}
+            {registrationError && !registrationError.includes("auth/email-already-in-use") ? <Alert>{registrationError}</Alert> : null}
         </form>
     )
 

@@ -26,7 +26,7 @@ apiClient.interceptors.request.use(
     return new Promise<AxiosResponse>((resolve) => {
       setTimeout(() => {
         resolve(response);
-      }, 2000); // Opóźnienie 2000ms (2 sekundy)
+      }, 2000);
     });
   }, (error:AxiosError) => {
     return Promise.reject(error);

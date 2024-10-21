@@ -1,7 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ProductType } from "../../types/Product";
-import { useNavigate } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
 
 interface favoritesListType {
     favoritesProducts: ProductType[]

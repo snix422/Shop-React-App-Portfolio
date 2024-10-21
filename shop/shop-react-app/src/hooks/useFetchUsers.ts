@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../firebase/firebase"; // Ścieżka do Twojej konfiguracji Firestore
+import { db } from "../firebase/firebase";
 
 const useFetchUsers = () => {
   const [users, setUsers] = useState<any[]>([]);

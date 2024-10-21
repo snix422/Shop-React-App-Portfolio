@@ -1,5 +1,4 @@
 
-
 type ProductCardPlaceholderProps = {
     lines?:number,
     height?:number

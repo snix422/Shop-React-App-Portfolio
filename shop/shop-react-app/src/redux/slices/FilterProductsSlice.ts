@@ -21,7 +21,7 @@ const filterProductsSlice = createSlice({
     reducers: {
         setProducts: (state, action: PayloadAction<ProductType[]>) => {
             state.products = action.payload;
-            state.filteredProducts = action.payload; // Ustawienie początkowego stanu przefiltrowanych produktów
+            state.filteredProducts = action.payload;
         },
         setCategoryFilter: (state, action: PayloadAction<string>) => {
             state.selectedCategory = action.payload;

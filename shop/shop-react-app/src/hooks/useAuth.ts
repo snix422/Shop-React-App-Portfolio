@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { onAuthStateChanged, User } from "firebase/auth";
-import { auth } from "../firebase/firebase"; // Zaimportuj obiekt auth z konfiguracji Firebase
+import { auth } from "../firebase/firebase";
 
 interface UseAuthReturn {
   user: User | null;

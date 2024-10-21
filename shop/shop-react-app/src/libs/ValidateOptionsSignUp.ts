@@ -4,7 +4,7 @@ export const validateOptionsSignUp = {
     email: {
         required: 'Email jest wymagany',
         pattern: {
-          value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i, // simple email regex
+          value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i, 
           message: 'Zły format e-maila',
         },
       },
@@ -23,7 +23,7 @@ export const validateOptionsSignUp = {
       phone: {
         required: 'Telefon jest wymagany',
         pattern: {
-          value: /^[0-9]{9,15}$/, // pattern for phone numbers with 9 to 15 digits
+          value: /^[0-9]{9,15}$/,
           message: 'Telefon musi posiadać tylko cyfry',
         },
       },
