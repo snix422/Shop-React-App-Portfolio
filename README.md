@@ -66,7 +66,7 @@ The app is well-structured, with clear separation of concerns in folders like li
   
 - Product Page: Display the page for each product and display the product information and comments section
 
-  ![Zdjęcie strony głównej aplikacji](https://imgur.com/a/f2MCMdM)
+  ![Zdjęcie strony głównej aplikacji](https://i.imgur.com/h3wVfai.png)
 
 
 ## Link 
