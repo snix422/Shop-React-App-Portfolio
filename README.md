@@ -66,6 +66,8 @@ The app is well-structured, with clear separation of concerns in folders like li
   
 - Product Page: Display the page for each product and display the product information and comments section
 
+  ![Zdjęcie strony głównej aplikacji](./Shop-Portfolio/Home01.png)
+
 
 ## Link 
 
