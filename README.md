@@ -67,6 +67,43 @@ The app is well-structured, with clear separation of concerns in folders like li
 - Product Page: Display the page for each product and display the product information and comments section
 
   ![Zdjęcie strony głównej aplikacji](https://i.imgur.com/h3wVfai.png)
+  Widok strony głównej. Na stronie głównej znajduję się sekcja Popularne w której produkty są pobierane z backendu za pomocą json-server
+
+  ![Strona sklepu](https://i.imgur.com/piaozLu.png).
+  Zdjęcie przedstawia stronę z wszystkimi produktami
+
+  ![Filtrowanie na podstronie z produktami](https://i.imgur.com/OGRpqCy.png).
+  Na rysunku została przedstawiona podstrona z produktami wraz z przedstawionym filtrowaniem
+
+  ![Zdjęcie przedstawia wyszukiwanie produktu po nazwie](https://i.imgur.com/wZMwWht.png).
+  Zdjęcie przedstawia wyszukanie produktów po nazwie po wpisaniu frazy w input w headerze.
+
+  ![Widok strony zdjęcie produktu](https://i.imgur.com/GWeBq9A.png).
+  Widok strony produktu.
+
+  ![Widok sekcji z opiniami o danym produkcie](https://i.imgur.com/lpCMv3L.png).
+  Zdjęcie przedstawia sekcję z opiniami dla wybranego produktu. Tylko zalogowany użytkownik może dodać opinię. Widok przedstawia wygląd dla nie zalogowanego użytkownika.
+
+  ![Widok rejestracji](https://i.imgur.com/JEar2M3.png).
+  Na rysunku została przedstawiona strona rejestracyjna
+
+  ![Widok logowania](https://i.imgur.com/dGNAuP3.png).
+  Widok przedstawia logowanie użytkownika
+
+  ![Widok logowania z walidacją](https://i.imgur.com/5XNnPjQ.png).
+  Zdjęcie przedstawia formularza logowania z walidacją
+
+  ![Widok koszyka](https://i.imgur.com/PO0slWX.png).
+  Widok koszyka w sklepie z przykładowymi dodanymi produktami
+
+  ![Widok Listy ulubionych](https://i.imgur.com/8o2wxm0.png).
+  Zdjęcie przedstawia listy ulubionych produktów dla danego konta użytkownika
+
+  ![Widok Listy ulubionych dla niezalogowanego użytkownika](https://i.imgur.com/qUhG8Q8.png).
+  Zdjęcie przedstawia podstronę z listą ulubionych produktów, gdy użytkownik nie jest zalogowany
+
+  ![Widok ładowania produktów](https://i.imgur.com/GKgCj46.png).
+  Widok przedstawia placeholdery które są widoczne gdy trwa ładowanie produktów z bazy danych
 
 
 ## Link 
