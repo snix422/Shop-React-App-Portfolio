@@ -1,4 +1,4 @@
-### Installation
+### Installation and Usage
 
 Follow these steps to set up the project:
 
@@ -39,14 +39,6 @@ Follow these steps to set up the project:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<a name="usage"></a>
-## Usage
-
-To run the project locally, use the following command:
-
-```sh
-  npm start
-```
 
 ## Built With
 - React
