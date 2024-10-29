@@ -21,13 +21,17 @@ Follow these steps to set up the project:
 ```
 4. Run App
 ```sh
-  cd shop => cd shop-react-app => cd src => cd db => json-server --watch db.json
+  cd shop => cd shop-react-app => npm run dev
 ```
-5. Run Unit tests
+5. Copy localhost to website url
+```sh
+  http://localhost:5173/
+```
+6. Run Unit tests
 ```sh
   npm test
 ```
-6. Run E2E tests
+7. Run E2E tests
 ```sh
   npm test-ct
 ```
