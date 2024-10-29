@@ -161,8 +161,3 @@ The app is well-structured, with clear separation of concerns in folders like li
   Widok przedstawia placeholdery które są widoczne gdy trwa ładowanie produktów z bazy danych
 
   
-
-
-## Link 
-
-   [Link to project](https://tourmaline-nougat-fb3109.netlify.app/)
