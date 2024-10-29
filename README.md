@@ -8,13 +8,30 @@ Follow these steps to set up the project:
 ```
 2. Navigate to your project directory
 ```sh
-  cd Gaming-Shop-App
+  cd shop => cd shop-react-app
 ```
 
 3. Install yarn packages
 ```sh
   npm install
 ```
+4. Run json-server backend
+```sh
+  cd shop => cd shop-react-app => cd src => cd db => json-server --watch db.json
+```
+4. Run App
+```sh
+  cd shop => cd shop-react-app => cd src => cd db => json-server --watch db.json
+```
+5. Run Unit tests
+```sh
+  npm test
+```
+6. Run E2E tests
+```sh
+  npm test-ct
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
